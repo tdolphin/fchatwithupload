@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+      <title>Chat test</title>
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="//cdn.rawgit.com/feathersjs/feathers-chat/v0.2.0/public/base.css">
+      <link rel="stylesheet" href="//cdn.rawgit.com/feathersjs/feathers-chat/v0.2.0/public/chat.css">
+      <style>
+      .menudivider {
+        border-top: 1px solid black;
+      }
+      
+      .dropbtn {
+          background-color: #4C50AF;
+          color: white;
+          padding: 12px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+          background-color: #3e8e41;
+      }
+      
+      .dropdown {
+          float: right;
+          position: relative;
+          display: inline-block;
+      }
+      
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #e0e0ff;
+          min-width: 160px;
+          overflow: auto;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          right: 0;
+      }
+      
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+      
+      .dropdown a:hover {background-color: #f1f1f1}
+      
+      .show {display:block;}
+      </style>
+    </head>
+    <body>
+      <div id="app" class="flex flex-column"></div>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.js"></script>
+      <script src="//npmcdn.com/feathers-client@^2.0.0-pre.1/dist/feathers.js"></script>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="utils_src.js"></script>
+      <script src="app.js"></script>
+    </body>
+  </html>
