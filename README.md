@@ -1,6 +1,7 @@
 # feathers-chat
 
-> based on feathers 'A chat app' with file upload
+> based on feathers 'A chat app' with file upload.
+
 You need to Create a folder called 
 ```
 filestore
