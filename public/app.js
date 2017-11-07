@@ -269,7 +269,7 @@ function login(credentials) {
 function attclick(e) {
     e.preventDefault();
     var fileId = e.target.getAttribute('data');
-    var aref = mdom.addhref(window.document.body, '', '/download/' + fileId + '?t=' + window.localStorage['feathers-jwt']);
+    var aref = mdom.addhref(window.document.body, '', '/download/' + fileId + '?auth_token=' + window.localStorage['feathers-jwt']);
     aref.click();
     window.document.body.removeChild(aref);
 
