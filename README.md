@@ -1,7 +1,10 @@
 # feathers-chat
 
 > based on feathers 'A chat app' with file upload
-
+You need to Create a folder called 
+```
+filestore
+```
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
